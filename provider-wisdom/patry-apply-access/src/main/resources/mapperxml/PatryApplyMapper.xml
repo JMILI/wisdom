@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.PatryApplyMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.PatryApply">
+    <!--@mbg.generated generated on Sun May 24 22:26:53 CST 2020.-->
+    <!--@Table patry_apply-->
+    <id column="patry_apply_id" jdbcType="VARCHAR" property="patryApplyId" />
+    <result column="patry_apply_username" jdbcType="VARCHAR" property="patryApplyUsername" />
+    <result column="patry_apply_name" jdbcType="VARCHAR" property="patryApplyName" />
+    <result column="patry_apply_workUnit" jdbcType="VARCHAR" property="patryApplyWorkunit" />
+    <result column="patry_apply_patryIdentity" jdbcType="VARCHAR" property="patryApplyPatryidentity" />
+    <result column="patry_apply_call" jdbcType="VARCHAR" property="patryApplyCall" />
+    <result column="patry_apply_theme" jdbcType="VARCHAR" property="patryApplyTheme" />
+    <result column="patry_apply_patryUnit" jdbcType="VARCHAR" property="patryApplyPatryunit" />
+    <result column="patry_apply_applyReason" jdbcType="LONGVARCHAR" property="patryApplyApplyreason" />
+    <result column="patry_apply_applyAnnex" jdbcType="VARCHAR" property="patryApplyApplyannex" />
+    <result column="patry_apply_applyTime" jdbcType="TIMESTAMP" property="patryApplyApplytime" />
+    <result column="patry_apply_patryPeriod" jdbcType="VARCHAR" property="patryApplyPatryperiod" />
+    <result column="patry_apply_branchOpinion" jdbcType="VARCHAR" property="patryApplyBranchopinion" />
+    <result column="patry_apply_branchHandler" jdbcType="VARCHAR" property="patryApplyBranchhandler" />
+    <result column="patry_apply_headOpinon" jdbcType="VARCHAR" property="patryApplyHeadopinon" />
+    <result column="patry_apply_headHandler" jdbcType="VARCHAR" property="patryApplyHeadhandler" />
+    <result column="patry_apply_personOpinon" jdbcType="VARCHAR" property="patryApplyPersonopinon" />
+    <result column="patry_apply_personHandler" jdbcType="VARCHAR" property="patryApplyPersonhandler" />
+    <result column="patry_apply_otherOpinion" jdbcType="VARCHAR" property="patryApplyOtheropinion" />
+    <result column="patry_apply_denialReason" jdbcType="VARCHAR" property="patryApplyDenialreason" />
+    <result column="patry_apply_status" jdbcType="VARCHAR" property="patryApplyStatus" />
+    <result column="patry_apply_identity" jdbcType="VARCHAR" property="patryApplyIdentity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun May 24 22:26:53 CST 2020.-->
+    patry_apply_id, patry_apply_username, patry_apply_name, patry_apply_workUnit, patry_apply_patryIdentity, 
+    patry_apply_call, patry_apply_theme, patry_apply_patryUnit, patry_apply_applyReason, 
+    patry_apply_applyAnnex, patry_apply_applyTime, patry_apply_patryPeriod, patry_apply_branchOpinion, 
+    patry_apply_branchHandler, patry_apply_headOpinon, patry_apply_headHandler, patry_apply_personOpinon, 
+    patry_apply_personHandler, patry_apply_otherOpinion, patry_apply_denialReason, patry_apply_status, 
+    patry_apply_identity
+  </sql>
+</mapper>

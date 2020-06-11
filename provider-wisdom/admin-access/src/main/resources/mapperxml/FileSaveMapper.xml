@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.FileSaveMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.FileSave">
+    <!--@mbg.generated generated on Tue Jun 09 13:44:00 CST 2020.-->
+    <!--@Table file_save-->
+    <id column="file_id" jdbcType="VARCHAR" property="fileId" />
+    <result column="file_path" jdbcType="VARCHAR" property="filePath" />
+    <result column="file_uploader_username" jdbcType="VARCHAR" property="fileUploaderUsername" />
+    <result column="file_uploader_name" jdbcType="VARCHAR" property="fileUploaderName" />
+    <result column="file_uploader_theme" jdbcType="VARCHAR" property="fileUploaderTheme" />
+    <result column="file_uploader_unit" jdbcType="VARCHAR" property="fileUploaderUnit" />
+    <result column="file_time" jdbcType="TIMESTAMP" property="fileTime" />
+    <result column="file_status" jdbcType="VARCHAR" property="fileStatus" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Jun 09 13:44:00 CST 2020.-->
+    file_id, file_path, file_uploader_username, file_uploader_name, file_uploader_theme, 
+    file_uploader_unit, file_time, file_status
+  </sql>
+</mapper>

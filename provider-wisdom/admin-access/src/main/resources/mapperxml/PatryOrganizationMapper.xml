@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.PatryOrganizationMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.PatryOrganization">
+    <!--@mbg.generated generated on Sat May 23 17:19:02 CST 2020.-->
+    <!--@Table patry_organization-->
+    <id column="patry_organization_id" jdbcType="BIGINT" property="patryOrganizationId" />
+    <result column="patry_organization_structureDiagram" jdbcType="VARCHAR" property="patryOrganizationStructurediagram" />
+    <result column="patry_organization_staffDistribution" jdbcType="VARCHAR" property="patryOrganizationStaffdistribution" />
+    <result column="patry_organization_email" jdbcType="VARCHAR" property="patryOrganizationEmail" />
+    <result column="patry_organization_call" jdbcType="VARCHAR" property="patryOrganizationCall" />
+    <result column="patry_organization_unit" jdbcType="VARCHAR" property="patryOrganizationUnit" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat May 23 17:19:02 CST 2020.-->
+    patry_organization_id, patry_organization_structureDiagram, patry_organization_staffDistribution, 
+    patry_organization_email, patry_organization_call, patry_organization_unit
+  </sql>
+</mapper>

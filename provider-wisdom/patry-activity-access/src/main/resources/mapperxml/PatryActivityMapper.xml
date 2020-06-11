@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.PatryActivityMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.PatryActivity">
+    <!--@mbg.generated generated on Mon May 25 00:54:46 CST 2020.-->
+    <!--@Table patry_activity-->
+    <id column="patry_activity_id" jdbcType="VARCHAR" property="patryActivityId" />
+    <result column="patry_activity_theme" jdbcType="VARCHAR" property="patryActivityTheme" />
+    <result column="patry_activity_peopleNumber" jdbcType="VARCHAR" property="patryActivityPeoplenumber" />
+    <result column="patry_activity_budget" jdbcType="DOUBLE" property="patryActivityBudget" />
+    <result column="patry_activity_cost" jdbcType="DOUBLE" property="patryActivityCost" />
+    <result column="patry_activity_activityTime" jdbcType="VARCHAR" property="patryActivityActivitytime" />
+    <result column="patry_activity_loaction" jdbcType="VARCHAR" property="patryActivityLoaction" />
+    <result column="patry_activity_activitySteps" jdbcType="LONGVARCHAR" property="patryActivityActivitysteps" />
+    <result column="patry_activity_patryUnit" jdbcType="VARCHAR" property="patryActivityPatryunit" />
+    <result column="patry_activity_applyReason" jdbcType="LONGVARCHAR" property="patryActivityApplyreason" />
+    <result column="patry_activity_principal" jdbcType="VARCHAR" property="patryActivityPrincipal" />
+    <result column="patry_activity_principalCall" jdbcType="VARCHAR" property="patryActivityPrincipalcall" />
+    <result column="patry_activity_annex" jdbcType="VARCHAR" property="patryActivityAnnex" />
+    <result column="patry_activity_applyTime" jdbcType="TIMESTAMP" property="patryActivityApplytime" />
+    <result column="patry_activity_headOpinion" jdbcType="VARCHAR" property="patryActivityHeadopinion" />
+    <result column="patry_activity_headHandler" jdbcType="VARCHAR" property="patryActivityHeadhandler" />
+    <result column="patry_activity_personOpinion" jdbcType="VARCHAR" property="patryActivityPersonopinion" />
+    <result column="patry_activity_personHandler" jdbcType="VARCHAR" property="patryActivityPersonhandler" />
+    <result column="patry_activity_denialReason" jdbcType="VARCHAR" property="patryActivityDenialreason" />
+    <result column="patry_activity_status" jdbcType="VARCHAR" property="patryActivityStatus" />
+    <result column="patry_activity_show" jdbcType="LONGVARCHAR" property="patryActivityShow" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon May 25 00:54:46 CST 2020.-->
+    patry_activity_id, patry_activity_theme, patry_activity_peopleNumber, patry_activity_budget, 
+    patry_activity_cost, patry_activity_activityTime, patry_activity_loaction, patry_activity_activitySteps, 
+    patry_activity_patryUnit, patry_activity_applyReason, patry_activity_principal, patry_activity_principalCall, 
+    patry_activity_annex, patry_activity_applyTime, patry_activity_headOpinion, patry_activity_headHandler, 
+    patry_activity_personOpinion, patry_activity_personHandler, patry_activity_denialReason, 
+    patry_activity_status, patry_activity_show
+  </sql>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.PatryMemberMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.PatryMember">
+    <!--@mbg.generated generated on Sat May 23 17:19:02 CST 2020.-->
+    <!--@Table patry_member-->
+    <id column="patry_member_id" jdbcType="BIGINT" property="patryMemberId" />
+    <result column="ptray_member_name" jdbcType="VARCHAR" property="ptrayMemberName" />
+    <result column="ptray_member_sex" jdbcType="VARCHAR" property="ptrayMemberSex" />
+    <result column="ptray_member_identity" jdbcType="VARCHAR" property="ptrayMemberIdentity" />
+    <result column="ptray_member_period" jdbcType="VARCHAR" property="ptrayMemberPeriod" />
+    <result column="ptray_member_workUnit" jdbcType="VARCHAR" property="ptrayMemberWorkunit" />
+    <result column="ptray_member_oldPatryUnit" jdbcType="VARCHAR" property="ptrayMemberOldpatryunit" />
+    <result column="ptray_member_nowPatryUnit" jdbcType="VARCHAR" property="ptrayMemberNowpatryunit" />
+    <result column="ptray_member_call" jdbcType="VARCHAR" property="ptrayMemberCall" />
+    <result column="patry_member_username" jdbcType="VARCHAR" property="patryMemberUsername" />
+    <result column="patry_member_email" jdbcType="VARCHAR" property="patryMemberEmail" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat May 23 17:19:02 CST 2020.-->
+    patry_member_id, ptray_member_name, ptray_member_sex, ptray_member_identity, ptray_member_period, 
+    ptray_member_workUnit, ptray_member_oldPatryUnit, ptray_member_nowPatryUnit, ptray_member_call, 
+    patry_member_username, patry_member_email
+  </sql>
+</mapper>

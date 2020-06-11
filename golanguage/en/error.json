@@ -1,0 +1,85 @@
+{
+  "generalError": {
+    "DataProcessAbnormal": "Data processing exceptions. Please try again",
+    "NetworkAccessErr": "Oops, there is something wrong with your Internet. Please check your local network and try again",
+    "FirewallErr": "Failed to configure Firewall. Please follow the instructions to configure it manually",
+    "OSSupportErr": "Sorry,the installation package is not supported by your operating system. You need to upgrade to Win7 and above to allow it work properly.",
+    "ComponentLackErr": "Missing component. Please go to https://dwz.cn/QtUyonPO to download the installation package.",
+    "ComponentLackTitle": "Missing Component"
+  },
+  "btnText": {
+    "ButtonLetsWeb": "Go to website",
+    "ButtonHelpLink": "https://dwz.cn/QtUyonPO",
+    "ButtonIntercomText": "Help center",
+    "StartUpFailedTip": "A starup is failing, please try  again or click on the help center to contact online customer service.",
+    "StartUpFailedTitle": "Boot failure"
+  },
+  "softwareError": {
+    "MenuExit": "Quit",
+    "AdminAuthErr": "Please run the software with administrative privileges",
+    "AdminUuidErr": "The program failed to initialize, please restart the software."
+  },
+  "initError": {
+    "InitFalconFail": "Global initialization failed. Please restart the software",
+    "ConfigTAPErr": "Failed to enable virtual NIC, please restart the software or computer to try again",
+    "TAPNotExist": "Virtual NIC not detected. Please reinstall the software or restart your computer",
+    "TunStartFailed": "Failed to configure router with vitural NIC. Please restart the software",
+    "AutoRepairTap": "The status of virtual NIC is abnormal. Please wait for a moment",
+    "AutoRepairTapFailed": "Failed to repair virtual NIC. Please reinstall or restart the computer",
+    "AutoRepairTapSuccess": "Virtual NIC successfully fixed",
+    "TapAdapterEnableTip": "Your virtual network adapter is disabled. Please manually enable it and try it again.Don't hesitate to contact us if you have any questions.",
+    "TapAdapterRebootTip": "We detected that your computer may have TeamViewer virtual network adapter, which will affect the use of LetsVPN. Please disable TeamViewer virtual network adapter, then restart the computer. Don't hesitate to contact us if you have any questions.",
+    "MicrWifiTip": "Your mobile hotspot has affected the connection of LetsVPN. Please turn it off and try again. Don't hesitate to tap Contact Us in the top right corner if your Internet is still blocked.",
+    "ExpressSoftTip": "We detected that you have \"%s\" installed in your computer, which will possibly affect the connection of LetsVPN. Please uninstall ExpressVPN and try again later. If LetsVPN is still not working, please tap Customer Service in the top right corner. We'll do our best to hep you :）",
+    "PppoeDnsTip": "We have detected that the using of dial-up connection and “IPV6” might possibly affect the connection of LetsVPN. We suggest that you turn off “IPV6\" and try LetsVPN again. Please simply tap the customer service icon in the top right corner if there are any problems.",
+    "DnsRestoreErr": "DNS Lookup Failed, please restart the software."
+  },
+  "linkError": {
+    "AccountExpire": "The account is expired. Please renew it",
+    "AccountNotMatch": "GID & RID don’t match. Please contact our customer support",
+    "AccountNotExist": "GID or RID doesn’t exist. Please contact our customer support",
+    "LevelNotEnough": "This mode is not available for your current subscription. Please switch to automatic mode",
+    "NetworkErr": "There is something wrong with your Internet. Please try again later",
+    "StateMachineAbnormal": "The status of this software is abnormal. Please try again later",
+    "UnreachPhyNIC": "Failed to access physical adapter. Please try again",
+    "ConnFail": "Connection failed. Please try again later or contact our customer support",
+    "Abnormal80Port": "Oops, the system encountered a problem. Please change the setting to “Global Mode” in “Switch Country”",
+    "SwitchNodeFail": "Failed to switch the route. Please try the other one",
+    "SwitchModeFail": "Failed to switch the mode. Please try again later",
+    "SwitchBusy": "Switching... Please click it later",
+    "ServerMaintenance": "Your chosen country is under maintenance. Please try other countries",
+    "TapDriverAbnormal": "虚拟网卡发生异常，请重启软件"
+  },
+  "upgradeError": {
+    "ClientUpgrade": "A forced upgrade is needed or the software is unable to work properly",
+    "CheckUpgradeFailed": "Failed to check for updates. Please try again later",
+    "InUpgrading": "Checking for updates. Please try again later",
+    "DownLoadErr": "Download failed",
+    "UpdateExeErr": "Update failed",
+    "CancelUpgrade": "Update cancelled"
+  },
+  "referrerError": {
+    "IDFormatErr": "Invalid ID format"
+  },
+  "logError": {
+    "ReadLogErr": "Error reading log file",
+    "LogUploadErr": "Failed to upload log files. Please try again later"
+  },
+  "missingDynaLibError": {
+    "NeedShell32Err": "Missing dynamic link library shell32.dll, please contact customer support",
+    "NeedCrypt32Err": "Missing dynamic link library crypt32.dll, please contact customer support",
+    "NeedKernel32Err": "Missing dynamic link library kernel32.dll, please contact customer support",
+    "NeedDnsapiErr": "Missing dynamic link library dnsapi.dll, please contact customer support",
+    "NeedUser32Err": "Missing dynamic link library user32.dll, please contact customer support",
+    "NeedIphlpapiErr": "Missing dynamic link library iphlpapi.dll, please contact customer support",
+    "NeedAdvapi32Err": "NMissing dynamic link library advapi32.dll, please contact customer support",
+    "NeedMswsockErr": "NMissing dynamic link library mswsock.dll, please contact customer support"
+  },
+  "openControlFailed": {
+    "OpenControlPanelErr": "Failed to open the control panel, please open it manually",
+    "CreateWindowErr": "Failed to create window",
+    "OpenLinkErr": "Link error",
+    "KillerTipInfo": "We have detected that you are using Killer Networking products, which might possibly result in connectivity problems. For more details, please follow the instructions and simply set it up.",
+    "SmartByteTipInfo": "We detected that your computer may have SmartByte, which will affect the use of LetsVPN. Please disable SmartByte, then restart the computer. Please simply tap the customer service icon in the top right corner if there are any problems."
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.PatryNewsMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.PatryNews">
+    <!--@mbg.generated generated on Tue May 26 00:01:33 CST 2020.-->
+    <!--@Table patry_news-->
+    <id column="patry_news_id" jdbcType="VARCHAR" property="patryNewsId" />
+    <result column="patry_news_theme" jdbcType="VARCHAR" property="patryNewsTheme" />
+    <result column="patry_news_content" jdbcType="LONGVARCHAR" property="patryNewsContent" />
+    <result column="patry_news_annex" jdbcType="VARCHAR" property="patryNewsAnnex" />
+    <result column="patry_news_time" jdbcType="DATE" property="patryNewsTime" />
+    <result column="patry_news_status" jdbcType="VARCHAR" property="patryNewsStatus" />
+    <result column="patry_news_unit" jdbcType="VARCHAR" property="patryNewsUnit" />
+    <result column="patry_news_activity" jdbcType="VARCHAR" property="patryNewsActivity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue May 26 00:01:33 CST 2020.-->
+    patry_news_id, patry_news_theme, patry_news_content, patry_news_annex, patry_news_time, 
+    patry_news_status, patry_news_unit, patry_news_activity
+  </sql>
+</mapper>

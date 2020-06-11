@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.Account">
+    <!--@mbg.generated generated on Sun May 24 02:40:30 CST 2020.-->
+    <!--@Table account-->
+    <id column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="login_identity" jdbcType="VARCHAR" property="loginIdentity" />
+    <result column="login_unit" jdbcType="VARCHAR" property="loginUnit" />
+    <result column="account_name" jdbcType="VARCHAR" property="accountName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun May 24 02:40:30 CST 2020.-->
+    username, `password`, login_identity, login_unit, account_name
+  </sql>
+</mapper>

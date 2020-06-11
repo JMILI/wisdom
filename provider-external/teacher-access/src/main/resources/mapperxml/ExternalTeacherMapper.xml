@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.ExternalTeacherMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.ExternalTeacher">
+    <!--@mbg.generated generated on Sat May 23 21:18:47 CST 2020.-->
+    <!--@Table external_teacher-->
+    <id column="teacher_id" jdbcType="VARCHAR" property="teacherId" />
+    <result column="teacher_name" jdbcType="VARCHAR" property="teacherName" />
+    <result column="teacher_sex" jdbcType="VARCHAR" property="teacherSex" />
+    <result column="teacher_hometown" jdbcType="VARCHAR" property="teacherHometown" />
+    <result column="teacher_education" jdbcType="VARCHAR" property="teacherEducation" />
+    <result column="teacher_homeAddress" jdbcType="VARCHAR" property="teacherHomeaddress" />
+    <result column="teacher_unit" jdbcType="VARCHAR" property="teacherUnit" />
+    <result column="teacher_email" jdbcType="VARCHAR" property="teacherEmail" />
+    <result column="teacher_phone" jdbcType="VARCHAR" property="teacherPhone" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat May 23 21:18:47 CST 2020.-->
+    teacher_id, teacher_name, teacher_sex, teacher_hometown, teacher_education, teacher_homeAddress, 
+    teacher_unit, teacher_email, teacher_phone
+  </sql>
+</mapper>

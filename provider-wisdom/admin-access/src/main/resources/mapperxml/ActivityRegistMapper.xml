@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.ActivityRegistMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.ActivityRegist">
+    <!--@mbg.generated generated on Fri May 29 02:52:54 CST 2020.-->
+    <!--@Table activity_regist-->
+    <id column="act_regist_id" jdbcType="VARCHAR" property="actRegistId" />
+    <result column="act_regist_activityId" jdbcType="VARCHAR" property="actRegistActivityid" />
+    <result column="act_regist_theme" jdbcType="VARCHAR" property="actRegistTheme" />
+    <result column="act_regist_username" jdbcType="VARCHAR" property="actRegistUsername" />
+    <result column="act_regist_unit" jdbcType="VARCHAR" property="actRegistUnit" />
+    <result column="act_regist_name" jdbcType="VARCHAR" property="actRegistName" />
+    <result column="act_regist_sex" jdbcType="VARCHAR" property="actRegistSex" />
+    <result column="act_regist_work_unit" jdbcType="VARCHAR" property="actRegistWorkUnit" />
+    <result column="act_regist_call" jdbcType="VARCHAR" property="actRegistCall" />
+    <result column="act_regist_sign_in" jdbcType="VARCHAR" property="actRegistSignIn" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Fri May 29 02:52:54 CST 2020.-->
+    act_regist_id, act_regist_activityId, act_regist_theme, act_regist_username, act_regist_unit, 
+    act_regist_name, act_regist_sex, act_regist_work_unit, act_regist_call, act_regist_sign_in
+  </sql>
+</mapper>

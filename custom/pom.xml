@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.smart.patry</groupId>
+        <artifactId>wisdom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <artifactId>custom</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>login-oauth2-feign</module>
+        <module>login-oauth2-service</module>
+        <module>admin-feign</module>
+        <module>admin-service</module>
+        <module>student-feign</module>
+        <module>student-service</module>
+        <module>teacher-feign</module>
+        <module>teacher-service</module>
+        <module>login-dashboard-feign</module>
+        <module>login-dashBoard-service</module>
+    </modules>
+
+    <dependencies>
+        <!-- Spring Cloud -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.1.10.RELEASE</version>
+
+        </dependency>
+        <!-- Spring Cloud Alibaba -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
+        <!-- Commons -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
+
+        <!-- Projects -->
+        <dependency>
+            <groupId>com.smart.patry</groupId>
+            <artifactId>commons-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.smart.patry</groupId>
+            <artifactId>commons-utils</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.smart.patry</groupId>
+            <artifactId>configuration-feign</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+</project>

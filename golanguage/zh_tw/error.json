@@ -1,0 +1,85 @@
+{
+  "generalError": {
+    "DataProcessAbnormal": "數據處理異常，請稍後重試",
+    "NetworkAccessErr": "網絡有點小問題，請檢查一下您本地網絡情況",
+    "FirewallErr": "智能防火牆設定失敗，需要您的配合",
+    "OSSupportErr": "抱歉，快連暫不支持當前操作系統。您需要升級到 Win 7 及以上的版本才能正常使用。",
+    "ComponentLackErr": "組件缺失，請到官網（https://dwz.cn/QtUyonPO）下載安裝包",
+    "ComponentLackTitle": "組件缺失"
+  },
+  "btnText": {
+    "ButtonLetsWeb": "去官網",
+    "ButtonHelpLink": "https://dwz.cn/QtUyonPO",
+    "ButtonIntercomText": "幫助中心",
+    "StartUpFailedTip": "軟件啟動失敗，請重新嘗試或點擊幫助中心聯繫在線客服。",
+    "StartUpFailedTitle": "啟動失敗"
+  },
+  "softwareError": {
+    "MenuExit": "退出",
+    "AdminAuthErr": "請以管理員權限運行軟件",
+    "AdminUuidErr": "程序初始化異常，請您重啟軟件。"
+  },
+  "initError": {
+    "InitFalconFail": "全局初始化失敗，請重啟軟件",
+    "ConfigTAPErr": "初始化虛擬網卡失敗，請重啟軟件或電腦嘗試",
+    "TAPNotExist": "找不到虛擬網卡，請使用安裝包重新安裝或重啟電腦",
+    "TunStartFailed": "虛擬網卡配置路由失敗，請重啟軟件嘗試",
+    "AutoRepairTap": "系統中虛擬網卡異常，開始自動修復，請通行安全軟件提示",
+    "AutoRepairTapFailed": "虛擬網卡修復失敗，請使用安裝包重新安裝或重啟電腦",
+    "AutoRepairTapSuccess": "虛擬網卡修復成功",
+    "TapAdapterEnableTip": "您電腦內的虛擬網卡被禁用了，需要您手動啟用一下被禁用的虛擬網卡。如果還有問題，請在軟件右上角選項中聯繫我們。",
+    "TapAdapterRebootTip": "檢測您的電腦可能有 TeamViewer 虛擬網卡適配器，它會影響 Lets 虛擬網卡使用，您需要先禁用它，然後重啟電腦。如果還有問題，請在軟件右上角選項中聯繫我們。",
+    "MicrWifiTip": "由於您在電腦中開啟了\\\"移動熱點\\\"，它會和快連產生衝突，導致任何網絡訪問都被禁止，請您關閉移動熱點後重新嘗試使用快連。如果還有問題，請在軟件右上角選項中聯繫我們。",
+    "ExpressSoftTip": "檢測到您電腦中安裝了 \"%s\"，它可能會和快連產生衝突，導致快連無法正常使用，建議您卸載後重新嘗試使用快連。如果還有問題，請在軟件右上角選項中聯繫我們。",
+    "PppoeDnsTip": "檢測到您的電腦使用的是“撥號上網”並且同時支持了“IPV6”，可能會對您的上網體驗有所影響，建議您關閉“IPV6”的上網方式然後重新嘗試使用快連。如果還有問題，請在軟件右上角選項中聯繫我們。",
+    "DnsRestoreErr": "DNS 恢復失敗，請您重啟軟件。"
+  },
+  "linkError": {
+    "AccountExpire": "賬戶過期，請續費使用",
+    "AccountNotMatch": "GID & RID 不匹配，請聯繫客服人員",
+    "AccountNotExist": "GID 或 RID 不存在，請聯繫客服人員",
+    "LevelNotEnough": "當前用戶等級不能連接該線路，請使用自動模式",
+    "NetworkErr": "網絡有點小問題, 請過一會再試試",
+    "StateMachineAbnormal": "軟件狀態異常，請稍後重試",
+    "UnreachPhyNIC": "獲取本機物理網卡信息異常，請重試",
+    "ConnFail": "連接失敗，請稍後重試",
+    "Abnormal80Port": "由於系統問題引發網絡異常，您需要在“變更國家“頁面把網絡模式修改為全局加速",
+    "SwitchNodeFail": "切換線路失敗，請嘗試其它線路",
+    "SwitchModeFail": "切換模式失敗，請稍後重試",
+    "SwitchBusy": "正在切換連接狀態，請稍後重試",
+    "ServerMaintenance": "您所選的地區正在進行設備維護，請換個地區再試試",
+    "TapDriverAbnormal": "虛擬網卡發生異常，請重啟軟件"
+  },
+  "upgradeError": {
+    "ClientUpgrade": "客戶端需要強制升級",
+    "CheckUpgradeFailed": "檢查更新失敗，請稍後重試",
+    "InUpgrading": "正在檢查更新，請稍後重試",
+    "DownLoadErr": "下載失敗",
+    "UpdateExeErr": "更新失敗",
+    "CancelUpgrade": "已取消更新"
+  },
+  "referrerError": {
+    "IDFormatErr": "輸入的 ID 格式無效"
+  },
+  "logError": {
+    "ReadLogErr": "讀取日誌出錯",
+    "LogUploadErr": "日誌上傳失敗，請稍後重試"
+  },
+  "missingDynaLibError": {
+    "NeedShell32Err": "缺少動態庫 shell32.dll，請聯繫客服解決",
+    "NeedCrypt32Err": "缺少動態庫 crypt32.dll，請聯繫客服解決",
+    "NeedKernel32Err": "缺少動態庫 kernel32.dll，請聯繫客服解決",
+    "NeedDnsapiErr": "缺少動態庫 dnsapi.dll，請聯繫客服解決",
+    "NeedUser32Err": "缺少動態庫 user32.dll，請聯繫客服解決",
+    "NeedIphlpapiErr": "缺少動態庫 iphlpapi.dll，請聯繫客服解決",
+    "NeedAdvapi32Err": "缺少動態庫 advapi32.dll，請聯繫客服解決",
+    "NeedMswsockErr": "缺少動態庫 mswsock.dll，請聯繫客服解決"
+  },
+  "openControlFailed": {
+    "OpenControlPanelErr": "打開控制面板失敗，請手動打開",
+    "CreateWindowErr": "創建窗口失敗",
+    "OpenLinkErr": "鏈接錯誤",
+    "KillerTipInfo": "系統檢測您正在使用 killer 網卡，這將導致快連無法運行，請您點擊幫助按鈕，按照教程對 killer 網卡進行簡單設置，然後即可正常使用快連VPN。",
+    "SmartByteTipInfo": "檢測您的電腦有 SmartByte 軟件，它會影響快連正常使用，您需要將其禁用並重啟電腦來使得快連正常運行，如果還有問題，請在軟件右上角選項中聯繫我們。"
+  }
+}

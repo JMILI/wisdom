@@ -1,0 +1,85 @@
+{
+  "generalError": {
+    "DataProcessAbnormal": "数据处理异常，请稍后重试",
+    "NetworkAccessErr": "网络有点小问题，请检查一下您本地网络情况",
+    "FirewallErr": "智能防火墙设定失败，需要您的配合",
+    "OSSupportErr": "抱歉，快连暂不支持当前操作系统。您需要升级到 Win 7 及以上的版本才能正常使用。"
+  },
+  "btnText": {
+    "ButtonLetsWeb": "去官网",
+    "ButtonHelpLink": "https://dwz.cn/QtUyonPO",
+    "ButtonIntercomText": "帮助中心",
+    "StartUpFailedTip": "软件启动失败，请重新尝试或点击帮助中心联系在线客服。",
+    "StartUpFailedTitle": "启动失败",
+    "ComponentLackErr": "组件缺失，请到官网（https://dwz.cn/QtUyonPO）下载安装包",
+    "ComponentLackTitle": "组件缺失"
+  },
+  "softwareError": {
+    "MenuExit": "退出",
+    "AdminAuthErr": "请以管理员权限运行软件",
+    "AdminUuidErr": "程序初始化异常，请您重启软件。"
+  },
+  "initError": {
+    "InitFalconFail": "全局初始化失败，请重启软件",
+    "ConfigTAPErr": "初始化虚拟网卡失败，请重启软件或电脑尝试",
+    "TAPNotExist": "找不到虚拟网卡，请使用安装包重新安装或重启电脑",
+    "TunStartFailed": "虚拟网卡配置路由失败，请重启软件尝试",
+    "AutoRepairTap": "系统中虚拟网卡异常，开始自动修复，请通行安全软件提示",
+    "AutoRepairTapFailed": "虚拟网卡修复失败，请使用安装包重新安装或重启电脑",
+    "AutoRepairTapSuccess": "虚拟网卡修复成功",
+    "TapAdapterEnableTip": "您电脑内的虚拟网卡被禁用了，需要您手动启用一下被禁用的虚拟网卡。如果还有问题，请在软件右上角选项中联系我们。",
+    "TapAdapterRebootTip": "检测您的电脑可能有 TeamViewer 虚拟网卡适配器，它会影响 Lets 虚拟网卡使用，您需要先禁用它，然后重启电脑。如果还有问题，请在软件右上角选项中联系我们。",
+    "MicrWifiTip": "由于您在电脑中开启了\"移动热点\"，它会和快连产生冲突，导致任何网络访问都被禁止，请您关闭移动热点后重新尝试使用快连。如果还有问题，请在软件右上角选项中联系我们。",
+    "ExpressSoftTip": "检测到您电脑中安装了 \"%s\"，它可能会和快连产生冲突，导致快连无法正常使用，建议您卸载后重新尝试使用快连。如果还有问题，请在软件右上角选项中联系我们。",
+    "PppoeDnsTip": "检测到您的电脑使用的是“拨号上网”并且同时支持了“IPV6”，可能会对您的上网体验有所影响，建议您关闭“IPV6”的上网方式然后重新尝试使用快连。如果还有问题，请在软件右上角选项中联系我们。",
+    "DnsRestoreErr": "DNS 恢复失败，请您重启软件。"
+  },
+  "linkError": {
+    "AccountExpire": "账户过期，请续费使用",
+    "AccountNotMatch": "GID & RID 不匹配，请联系客服人员",
+    "AccountNotExist": "GID 或 RID 不存在，请联系客服人员",
+    "LevelNotEnough": "当前用户等级不能连接该线路，请使用自动模式",
+    "NetworkErr": "网络有点小问题, 请过一会再试试",
+    "StateMachineAbnormal": "软件状态异常，请稍后重试",
+    "UnreachPhyNIC": "获取本机物理网卡信息异常，请重试",
+    "ConnFail": "连接失败，请稍后重试",
+    "Abnormal80Port": "由于系统问题引发网络异常，您需要在“变更国家“页面把网络模式修改为全局加速",
+    "SwitchNodeFail": "切换线路失败，请尝试其它线路",
+    "SwitchModeFail": "切换模式失败，请稍后重试",
+    "SwitchBusy": "正在切换连接状态，请稍后重试",
+    "ServerMaintenance": "您所选的地区正在进行设备维护，请换个地区再试试",
+    "TapDriverAbnormal": "虚拟网卡发生异常，请重启软件"
+  },
+  "upgradeError": {
+    "ClientUpgrade": "客户端需要强制升级",
+    "CheckUpgradeFailed": "检查更新失败，请稍后重试",
+    "InUpgrading": "正在检查更新，请稍后重试",
+    "DownLoadErr": "下载失败",
+    "UpdateExeErr": "更新失败",
+    "CancelUpgrade": "已取消更新"
+  },
+  "referrerError": {
+    "IDFormatErr": "输入的 ID 格式无效"
+  },
+  "logError": {
+    "ReadLogErr": "读取日志出错",
+    "LogUploadErr": "日志上传失败，请稍后重试"
+  },
+  "missingDynaLibError": {
+    "NeedShell32Err": "缺少动态库 shell32.dll，请联系客服解决",
+    "NeedCrypt32Err": "缺少动态库 crypt32.dll，请联系客服解决",
+    "NeedKernel32Err": "缺少动态库 kernel32.dll，请联系客服解决",
+    "NeedDnsapiErr": "缺少动态库 dnsapi.dll，请联系客服解决",
+    "NeedUser32Err": "缺少动态库 user32.dll，请联系客服解决",
+    "NeedIphlpapiErr": "缺少动态库 iphlpapi.dll，请联系客服解决",
+    "NeedAdvapi32Err": "缺少动态库 advapi32.dll，请联系客服解决",
+    "NeedMswsockErr": "缺少动态库 mswsock.dll，请联系客服解决"
+  },
+  "openControlFailed": {
+    "OpenControlPanelErr": "打开控制面板失败，请手动打开",
+    "CreateWindowErr": "创建窗口失败",
+    "OpenLinkErr": "链接错误",
+    "KillerTipInfo": "系统检测您正在使用 killer 网卡，这将导致快连无法运行，请您点击帮助按钮，按照教程对 killer 网卡进行简单设置，然后即可正常使用快连VPN。",
+    "SmartByteTipInfo": "检测您的电脑有  SmartByte 软件，它会影响快连正常使用，您需要将其禁用并重启电脑来使得快连正常运行，如果还有问题，请在软件右上角选项中联系我们。"
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.StudyHrefMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.StudyHref">
+    <!--@mbg.generated generated on Mon Jun 08 21:28:19 CST 2020.-->
+    <!--@Table study_href-->
+    <id column="study_id" jdbcType="VARCHAR" property="studyId" />
+    <result column="study_theme" jdbcType="VARCHAR" property="studyTheme" />
+    <result column="study_href" jdbcType="VARCHAR" property="studyHref" />
+    <result column="study_upload_time" jdbcType="TIMESTAMP" property="studyUploadTime" />
+    <result column="study_status" jdbcType="VARCHAR" property="studyStatus" />
+    <result column="study_upload_username" jdbcType="VARCHAR" property="studyUploadUsername" />
+    <result column="study_upload_name" jdbcType="VARCHAR" property="studyUploadName" />
+    <result column="study_upload_unit" jdbcType="VARCHAR" property="studyUploadUnit" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Jun 08 21:28:19 CST 2020.-->
+    study_id, study_theme, study_href, study_upload_time, study_status, study_upload_username, 
+    study_upload_name, study_upload_unit
+  </sql>
+</mapper>

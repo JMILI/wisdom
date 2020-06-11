@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.patry.provider.mapper.ExternalStudentMapper">
+  <resultMap id="BaseResultMap" type="com.smart.patry.provider.domain.ExternalStudent">
+    <!--@mbg.generated generated on Sat May 23 21:06:32 CST 2020.-->
+    <!--@Table external_student-->
+    <id column="student_id" jdbcType="VARCHAR" property="studentId" />
+    <result column="student_name" jdbcType="VARCHAR" property="studentName" />
+    <result column="student_sex" jdbcType="VARCHAR" property="studentSex" />
+    <result column="student_hometown" jdbcType="VARCHAR" property="studentHometown" />
+    <result column="student_education" jdbcType="VARCHAR" property="studentEducation" />
+    <result column="student_homeAddress" jdbcType="VARCHAR" property="studentHomeaddress" />
+    <result column="student_unit" jdbcType="VARCHAR" property="studentUnit" />
+    <result column="student_email" jdbcType="VARCHAR" property="studentEmail" />
+    <result column="student_phone" jdbcType="VARCHAR" property="studentPhone" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat May 23 21:06:32 CST 2020.-->
+    student_id, student_name, student_sex, student_hometown, student_education, student_homeAddress, 
+    student_unit, student_email, student_phone
+  </sql>
+</mapper>
